@@ -1,0 +1,3 @@
+package: github.com/akatakun/go-chat_room
+import:
+- package: gopkg.in/yaml.v2

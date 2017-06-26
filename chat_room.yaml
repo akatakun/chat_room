@@ -1,0 +1,13 @@
+---
+default: &default
+  log_level: warn
+
+development:
+  <<: *default
+  log_level: debug
+
+test:
+  <<: *default
+
+production:
+  <<: *default
